@@ -1,0 +1,53 @@
+
+
+body {
+    margin: 0;
+    background-color: #212529;
+    color: white;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+#score-el {
+    margin: 0px 5px 10px 0px;
+    padding: 10px 10px 5px 60px;
+    background-color: black;
+    border-radius: 5px;
+    color: red;
+    border: 1px solid grey;
+}
+#score-el2 {
+    margin: 0px 5px 10px 0px;
+    padding: 10px 10px 5px 60px;
+    background-color: black;
+    border-radius: 5px;
+    color: red;
+    border: 1px solid grey;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    padding-left: 27px;
+    margin-bottom: 5px;
+}
+
+button {
+    background: none;
+    color: white;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    padding: 5px 10px;
+    font-weight: 100;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #14213d;
+}
+
+#reset-btn {
+    display: flex;
+    margin-top: 35%;
+}
